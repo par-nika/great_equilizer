@@ -1,24 +1,24 @@
 <script>
-  import LeftAlignedExample from "./sections/LeftAlignedExample.svelte";
-  import RightAlignedExample from "./sections/RightAlignedExample.svelte";
-  import ImageExample from "./sections/ImageExample.svelte";
-  import TitleSection from "./sections/TitleSection.svelte";
-  import InteresectionObserverBasicExample from "./sections/InteresectionObserverBasicExample.svelte";
-  import IntersectionObserverAlertExample from "./sections/IntersectionObserverAlertExample.svelte";
-  import DisappearingDuckExample from "./sections/DisappearingDuckExample.svelte";
-  import IntersectionObserverSectionCard from "./sections/IntersectionObserverSectionCard.svelte";
-  import IntersectionObserverListExample from "./sections/IntersectionObserverListExample.svelte";
+
+  import Scene1 from './sections/scene1.svelte';
+  import Scene2 from './sections/scene2.svelte';
+  import Scene3 from './sections/scene3.svelte';
+  import Scene4 from './sections/scene4.svelte';
+  import Scene5 from './sections/scene5.svelte';
+  import Scene6 from './sections/scene6.svelte';
+  import Scene7 from './sections/scene7.svelte';
 </script>
 
 <main>
-  <TitleSection />
-  <RightAlignedExample />
-  <LeftAlignedExample />
-  <ImageExample />
-
-  <IntersectionObserverSectionCard />
-  <InteresectionObserverBasicExample />
-  <IntersectionObserverAlertExample />
-  <DisappearingDuckExample />
-  <IntersectionObserverListExample />
+  <Scene1 />
+  <Scene2 />
+  <Scene3 />
+  <Scene4 />
+  <Scene5 />
+  <Scene6 />
+  <Scene7 />
 </main>
+
+<style>
+
+</style>

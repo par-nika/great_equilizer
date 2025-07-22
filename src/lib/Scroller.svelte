@@ -1,7 +1,7 @@
 <script>
     // `layout` can be either "right" or "left"
     // `sticky` and `scrolly` are the snippets passed in (see one of the examples)
-    let { layout, sticky, scrolly } = $props(); 
+    let { layout, sticky, scrolly } = $props();
 </script>
 
 <div class="wrapper {layout}">
@@ -16,14 +16,17 @@
 
 <style>
     .wrapper {
-        background-color: #f7f5eb;
-        padding: min(100vh, 30rem) 1rem;
-        border-style: solid;
-        border-color: #4096fa;
+        background-color: #3D0814;
+        color: #D8DCFF;
+        font-family: 'Epilogue', sans-serif;
+        padding: 4rem 2vw;
+        border-radius: 16px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         align-items: flex-start;
+        margin: 0 auto;
+        max-width: 1200px;
     }
 
     .left .scrolly {
@@ -44,7 +47,7 @@
     .scrolly {
         display: flex;
         flex-direction: column;
-        flex: 1 1; /* Allows growing, shrinking */
+        flex: 1 1;
     }
 
     .sticky {
@@ -72,7 +75,7 @@
         .scrolly {
             flex: 1 1 auto;
             min-width: 100%;
-            position: static; /* remove sticky on mobile */
+            position: static;
             transform: none;
         }
 
